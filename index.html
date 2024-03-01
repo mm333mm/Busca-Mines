@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Buscaminas</h1>
+    <div class="capçalera">
+        <select name="dificultat" id="dificultat">
+            <option id="facil" value="facil">Fàcil</option>
+            <option id="mitja" value="mitja">Mitja</option>
+            <option id="dificil" value="dificil">Difícil</option>
+        </select>
+        <div class="cronometre">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock-hour-10" width="35"
+                height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M12 12l-3 -2" />
+                <path d="M12 7v5" />
+            </svg>
+            <p id="temps">0</p>
+        </div>
+        <div class="banderes">
+            <img src="./img/flag.png" alt="bandera">
+            <p id="numBanderes"></p>
+        </div>
+    </div>
+    <div id="tauler"></div>
+    <br>
+    <div class="peu">
+        <button id="reiniciar">Reiniciar</button>
+    </div>
+
+    <div id="toast" class="toast hidden">
+        <h3 id="missatge"></h3>
+    </div>
+
+    <script src="./java/Casella.js"></script>
+    <script src="./java/Tauler.js"></script>
+    <script src="./java/Joc.js"></script>
+    <script src="./java/main.js"></script>
+</body>
+
+</html>

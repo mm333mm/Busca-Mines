@@ -1,0 +1,183 @@
+
+body {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tauler{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.toast {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1000;
+    max-width: 100%;
+    width: 15%;
+    padding: 15px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 1rem;
+    pointer-events: none;
+    background-color: rgba(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.casella {
+    background-image: url(./img/square.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.capçalera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 20%;
+}
+
+.banderes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+}
+
+.cronometre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+
+}
+
+.peu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 20%;
+}
+
+.mina {
+    background-image: url(./img/bomb.png);
+    background-color: red;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.noMina {
+    background-color: white;
+}
+
+.marcat {
+    background-color: yellow;
+}
+
+.minesAdjacents0 {
+    background-image: url(./img/Minesweeper_0.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minesAdjacents1 {
+    background-image: url(./img/Minesweeper_1.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minesAdjacents2 {
+    background-image: url(./img/Minesweeper_2.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minesAdjacents3 {
+    background-image: url(./img/Minesweeper_3.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minesAdjacents4 {
+    background-image: url(./img/Minesweeper_4.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minesAdjacents5 {
+    background-image: url(./img/Minesweeper_5.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minesAdjacents6 {
+    background-image: url(./img/Minesweeper_6.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minesAdjacents7 {
+    background-image: url(./img/Minesweeper_7.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minesAdjacents8 {
+    background-image: url(./img/Minesweeper_8.gif);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.marcada {
+    background-image: url(./img/flag.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
